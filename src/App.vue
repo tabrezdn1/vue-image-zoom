@@ -3,7 +3,7 @@
     <ImageZoom
       custom-class="my-custom-class"
       :scale="4"
-      src="https://tineye.com/images/widgets/mona.jpg"
+      src="https://images.pexels.com/photos/4622893/pexels-photo-4622893.jpeg"
     />
   </div>
 </template>
