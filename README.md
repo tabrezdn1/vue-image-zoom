@@ -1,8 +1,5 @@
 # vue-image-zoom
 
-# vue-autowrite 
-
-
 ## Purpose
 This is a vue component that zooms in on an image when hovered, can be used in portfolios, gallery, and e-commerce application.
 
