@@ -1,12 +1,35 @@
 {
-  "name": "vue-image-zoom",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@tabrezdn1/vue-image-zoom",
+  "author": {
+    "name": "Saik Tabrez",
+    "email": "tabrezdn1@gmail.com"
+  },
+  "version": "0.1.1",
+  "private": false,
+  "license": "MIT",
+  "main": "./dist/imageZoom.common.js",
+  "unpkg": "./dist/imageZoom.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-package": "vue-cli-service build --target lib --name imageZoom ./src/components/ImageZoom.vue"
   },
+  "keywords": [
+    "vue",
+    "vue-js",
+    "image",
+    "zoom",
+    "picture",
+    "image-zoom",
+    "edit",
+    "ecommerce"
+  ],
+  "description": "A vue component that zooms in on an image when hovered, can be used in portfolios, gallery, and e-commerce application.",
+  "repository": "github:tabrezdn1/vue-image-zoom",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
