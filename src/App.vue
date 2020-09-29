@@ -3,6 +3,8 @@
     <ImageZoom
       custom-class="my-custom-class"
       :scale="4"
+      height="800px"
+      width="800px"
       src="https://images.pexels.com/photos/4622893/pexels-photo-4622893.jpeg"
     />
   </div>
