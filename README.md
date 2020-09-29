@@ -24,7 +24,7 @@ This is a vue component that zooms in on an image when hovered, can be used in p
 </template>
 
 <script>
-import ImageZoom from "vue-image-zoom";
+import ImageZoom from "@tabrezdn1/vue-image-zoom";
 
 export default {
   components: {
