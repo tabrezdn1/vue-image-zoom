@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <ImageZoom
-      custom-class="my-custom"
+      custom-class="my-custom-class"
       :scale="4"
       src="https://images.unsplash.com/photo-1582769923195-c6e60dc1d8dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
     />
@@ -18,3 +18,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.my-custom-class {
+  border-radius: 100px;
+}
+</style>
